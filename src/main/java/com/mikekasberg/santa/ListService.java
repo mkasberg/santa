@@ -32,8 +32,16 @@ public class ListService {
     }
 
     private void seedLists() {
-        niceList.add(Person.builder().name("Mike").age(10).build());
-        niceList.add(Person.builder().name("John").age(5).build());
+        niceList.add(Person.builder().name("Ashley").age(4).build());
+        niceList.add(Person.builder().name("John").age(8).build());
+        niceList.add(Person.builder().name("Jimmy").age(5).build());
+        niceList.add(Person.builder().name("Jessica").age(6).build());
+        niceList.add(Person.builder().name("Katie").age(6).build());
+
+
+        naughtyList.add(Person.builder().name("Johnny").age(9).build());
+        naughtyList.add(Person.builder().name("Stephanie").age(7).build());
+        naughtyList.add(Person.builder().name("Jonathan").age(8).build());
     }
 
 }
