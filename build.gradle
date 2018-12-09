@@ -30,4 +30,5 @@ dependencies {
     compileOnly('org.projectlombok:lombok:1.18.4')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.hamcrest:hamcrest-library:1.3')
 }
