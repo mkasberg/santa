@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ListService {
+class ListService {
 
     @Getter
     private List<Person> niceList;
@@ -16,18 +16,18 @@ public class ListService {
     @Getter
     private List<Person> naughtyList;
 
-    public ListService() {
+    ListService() {
         niceList = new ArrayList<>();
         naughtyList = new ArrayList<>();
 
         seedLists();
     }
 
-    public void addToNiceList(Person p) {
+    void addToNiceList(Person p) {
         niceList.add(p);
     }
 
-    public void addToNaughtyList(Person p) {
+    void addToNaughtyList(Person p) {
         naughtyList.add(p);
     }
 
